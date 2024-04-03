@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #756AB6, 70%, #52D3D8);
+}
+
+.stel{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+
+}
+
+.stel__head{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stel__heading{
+    font-weight: 500;
+    font-size: 200;
+}
+
+.stel__body{
+    height: 70%;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.todo__footer{
+    height: 10%;
+}
+
+.button__footer{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button__footer:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #756AB6, 70%, #52D3D8);
+}
+
+.box {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .input{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 2px;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
